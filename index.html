@@ -1,115 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex" />
     <title>Aki's portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
     <header>
-        <a href="index.html">Aki's work</a>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#works">Works</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+      <a href="index.html">Aki's work</a>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#works">Works</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
 
     <div class="main-visual">
-        <div class="title">
-            <h1>Aki's portfolio</h1>
-            <p>web engineer</p>
-        </div>
+      <div class="title">
+        <h1>Aki's portfolio</h1>
+        <p>web engineer</p>
+      </div>
     </div>
 
     <main>
-        <section id="about" class="animate-me">
-            <h2>About</h2>
-            <div id="about-name">
-                <h3>中原 暁</h3>
-                <p>aki nakahara</p>
-            </div>
-            <div id="about-detail">
-                <p>
-                    熊本県立大学文学部英語英米文学科在学中。
-                    大学2年の冬から、オンラインプログラミングスクールでWeb開発を学んだ。PHP、Laravelを使ったWebアプリケーションのチーム開発経験もあり。 現在は自主学習でwebアプリ開発中。
-                    趣味はバレーボール。
-                </p>
-                <img src="image/Me.png" alt="me">
-            </div>
-        </section>
+      <section id="about" class="animate-me">
+        <h2>About</h2>
+        <div id="about-name">
+          <h3>中原 暁</h3>
+          <p>aki nakahara</p>
+        </div>
+        <div id="about-detail">
+          <p>
+            熊本県立大学文学部英語英米文学科在学中。
+            大学2年の冬から、オンラインプログラミングスクールでWeb開発を学んだ。PHP、Laravelを使ったWebアプリケーションのチーム開発経験もあり。
+            現在は自主学習でwebアプリ開発中。 趣味はバレーボール。
+          </p>
+          <img src="image/Me.png" alt="me" />
+        </div>
+      </section>
 
-        <section id="skills" class="animate-me">
-            <h2>Skills</h2>
-            <div class="skill-list">
-                <div id="skill-item">
-                    <h3>HTML / CSS</h3>
-                    <p>オンラインスクールで学び、webアプリのトップページを担当しました。</p>
-                </div>
-                <div id="skill-item">
-                    <h3>JavaScript / Node.js</h3>
-                    <p>フロントサイドでは、動きのある動作を作るために使用しました。 Node.js は、ビルドに使用したことがあります</p>
-                </div>
-                <div id="skill-item">
-                    <h3>PHP</h3>
-                    <p>Laravel というフレームワークで データベースを操作する、アプリケーションを制作しました。</p>
-                </div>
-                <div id="skill-item">
-                    <h3>MySQL</h3>
-                    <p>Laravelを使ったアプリ開発で、MySQLのDBを使用しました。</p>
-                </div>
-                <div id="skill-item">
-                    <h3>React</h3>
-                    <p>自分で学習し、paginationの機能にreactを使用したことがあります。React Nativeをつかってチャットアプリを開発したことがあります。</p>
-                </div>
-                <div id="skill-item">
-                    <h3>Firebase</h3>
-                    <p>Firebase APIを使用し、authenticationやチャットの履歴などを保存する機能を使用・開発しました。
-                    </p>
-                </div>
-            </div>
-        </section>
-    
-        <section id="works" class="animate-me">
-            <h2>Works</h2>
-            <div id="work-item">
-                <img src="image/English_Chat_Hub.png" alt="english_chat_hub">
-                <div class="work-description">
-                    <h3>英語を話したい人が集まって話せるアプリ</h3>
-                    <p>Laravelを使用したWebアプリをチーム開発しました。私は企画 / トップページ・問い合わせフォーム・よくある質問の仕様と機能 / Mailtrapを利用したメール送信テスト / ゲストとユーザーで仕様が変わるレビュー機能 / JavaScriptを使った動きのあるUI/ Reactを使ったpaginationを担当しました。</p>
-                </div>
-            </div>
-            <div id="work-item">
-                <img src="image/portfolio.png" alt="portfolio">
-                <div class="work-description">
-                    <h3>ポートフォリオサイト</h3>
-                    <p>現在表示しているサイトです。 学習サイトを参考にしながら、はじめて1人で制作しました。</p>
-                </div>
-            </div>
-            <div id="work-item">
-                <img src="image/JapaneseChatApp.png" alt="japanese_chat_app">
-                <div class="work-description">
-                    <h3>チャットアプリ</h3>
-                    <p>React Nativeを使用して、チャットアプリを作成しました。DBはFirebaseを用いて、認証とチャット履歴を保存する機能を作成しました。</p>
-                </div>
-            </div>    
-        </section>
-        
-        <section id="contact" class="animate-me">
-            <h2>Contact</h2>
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSca68Od18SIdDr7gnG2EVup6oxw1IFvLiJmYTPwzCN11g6nhQ/viewform?embedded=true" width="640" height="686" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
-        </section>
+      <section id="skills" class="animate-me">
+        <h2>Skills</h2>
+        <div class="skill-list">
+          <div id="skill-item">
+            <h3>HTML / CSS</h3>
+            <p>
+              オンラインスクールで学び、webアプリのトップページを担当しました。
+            </p>
+          </div>
+          <div id="skill-item">
+            <h3>JavaScript / Node.js</h3>
+            <p>
+              フロントサイドでは、動きのある動作を作るために使用しました。
+              Node.js は、ビルドに使用したことがあります
+            </p>
+          </div>
+          <div id="skill-item">
+            <h3>PHP</h3>
+            <p>
+              Laravel というフレームワークで
+              データベースを操作する、アプリケーションを制作しました。
+            </p>
+          </div>
+          <div id="skill-item">
+            <h3>MySQL</h3>
+            <p>Laravelを使ったアプリ開発で、MySQLのDBを使用しました。</p>
+          </div>
+          <div id="skill-item">
+            <h3>React</h3>
+            <p>
+              自分で学習し、paginationの機能にreactを使用したことがあります。React
+              Nativeをつかってチャットアプリを開発したことがあります。
+            </p>
+          </div>
+          <div id="skill-item">
+            <h3>Firebase</h3>
+            <p>
+              Firebase
+              APIを使用し、authenticationやチャットの履歴などを保存する機能を使用・開発しました。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="works" class="animate-me">
+        <h2>Works</h2>
+        <div id="work-item">
+          <img src="image/English_Chat_Hub.png" alt="english_chat_hub" />
+          <div class="work-description">
+            <h3>英語を話したい人が集まって話せるアプリ</h3>
+            <p>
+              Laravelを使用したWebアプリをチーム開発しました。私は企画 /
+              トップページ・問い合わせフォーム・よくある質問の仕様と機能 /
+              Mailtrapを利用したメール送信テスト /
+              ゲストとユーザーで仕様が変わるレビュー機能 /
+              JavaScriptを使った動きのあるUI/
+              Reactを使ったpaginationを担当しました。
+            </p>
+          </div>
+        </div>
+        <div id="work-item">
+          <img src="image/portfolio.png" alt="portfolio" />
+          <div class="work-description">
+            <h3>ポートフォリオサイト</h3>
+            <p>
+              現在表示しているサイトです。
+              学習サイトを参考にしながら、はじめて1人で制作しました。
+            </p>
+          </div>
+        </div>
+        <div id="work-item">
+          <img src="image/JapaneseChatApp.png" alt="japanese_chat_app" />
+          <div class="work-description">
+            <h3>チャットアプリ</h3>
+            <p>
+              React
+              Nativeを使用して、チャットアプリを作成しました。DBはFirebaseを用いて、認証とチャット履歴を保存する機能を作成しました。
+            </p>
+          </div>
+        </div>
+        <div id="work-item">
+          <img src="image/AskAnything.png" alt="ask_anything" />
+          <div class="work-description">
+            <h3>質問掲示板アプリ</h3>
+            <p>
+              php・mysqlを使用し、質問を掲示しその質問に対してコメントする機能を作成しました。axiosを使用して、コメントのデータを送り処理することができました。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="animate-me">
+        <h2>Contact</h2>
+        <iframe
+          src="https://docs.google.com/forms/d/e/1FAIpQLSca68Od18SIdDr7gnG2EVup6oxw1IFvLiJmYTPwzCN11g6nhQ/viewform?embedded=true"
+          width="640"
+          height="686"
+          frameborder="0"
+          marginheight="0"
+          marginwidth="0"
+          >読み込んでいます…</iframe
+        >
+      </section>
     </main>
-    
+
     <footer>
-        <p>&copy; 2023 Aki Nakahara</p>
+      <p>&copy; 2023 Aki Nakahara</p>
     </footer>
-</body>
-<script src="animation.js"></script>
+  </body>
+  <script src="animation.js"></script>
 </html>
